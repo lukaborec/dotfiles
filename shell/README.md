@@ -31,3 +31,9 @@ ln -sf ~/dotfiles/shell/.zshrc ~/.zshrc
 # OR with GNU Stow
 cd ~/dotfiles
 stow shell
+
+### What does each file mean?
+- `.zshrc` – main entry point, symlinked to `~/.zshrc`
+- `zsh-env.zsh` – environment variables and system paths (e.g. Homebrew, locale, pyenv)
+- `zsh-omz.zsh` – Oh My Zsh configuration and Powerlevel10k theme setup
+- `aliases.zsh` – custom CLI aliases
